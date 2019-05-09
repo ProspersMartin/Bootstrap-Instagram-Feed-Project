@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+   <head>
+       <title>Bootstrap IG Page</title>
+       <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+       <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+       <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+   </head>
+
+   <body>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="col-md-1">
+            </div>
+            <i class="fab fa-instagram mr-1"></i>
+            <a class="navbar-brand" href="#">Instagram</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                <ul class="navbar-nav mr-auto mt-2 mt-lg-0"></ul>
+                <form class="form-inline my-2 my-lg-0">
+
+
+
+                <button type="button" class="btn btn-success" data-toggle="modal" data-target="#exampleModal">Create a new post</button>
+                    <!-- Modal -->
+                    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog" role="document">
+                            <div class="modal-content">
+                                <div class="form-group px-3 pt-3">
+                                    <textarea class="form-control w-100" id="message-text"></textarea>
+                                </div>
+                                <div class="modal-body">
+                                    <button type="button" class="btn btn-outline-secondary" data-dismiss="modal"><i class="fas fa-camera"></i></button>
+                                    <button type="button" class="btn btn-outline-secondary"><i class="fas fa-map-marker-alt"></i></button>                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-outline-secondary" data-dismiss="modal">Cancel</button>
+                                    <button type="button" class="btn btn-success">Publish</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+
+                <div class="dropdown">
+                    <button class="dropdown-toggle btn btn-light" type="button" id="dropdownMenuButton" data-toggle="dropdown" data-display="static" aria-haspopup="true" aria-expanded="false">
+                        <i class="fas fa-cog"></i>
+                    </button>
+                    <div class="dropdown-menu dropdown-menu-lg-right" aria-labelledby="dropdownMenuButton">
+                        <a class="dropdown-item" href="#">Action</a>
+                        <a class="dropdown-item" href="#">Another action</a>
+                        <a class="dropdown-item" href="#">Settings</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#">Log Out</a>
+                    </div>
+                </div>
+                </form>
+            </div>
+            <div class="col-md-1"></div>
+        </nav>
+        <div class="container-fluid pl-0 pr-0">
+            <div class="pills bg-light">
+                <ul class="nav nav-pills mb-3 mr-0" id="pills-tab" role="tablist">
+                    <div class="col-md-5 ml-5 bg-light"></div>
+                    <li class="nav-item">
+                        <a class="nav-link active p-3 bg-light text-dark" id="pills-gridview-tab" data-toggle="pill" href="#pills-gridview" role="tab" aria-controls="pills-gridview" aria-selected="true"><i class="fas fa-th fa-1x"></i></a></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link p-3 bg-light text-dark" id="pills-singleview-tab" data-toggle="pill" href="#pills-singleview" role="tab" aria-controls="pills-singleview" aria-selected="false"><i class="fas fa-portrait fa-1x"></i></a></a>
+                    </li>
+                    <div class="col-md-5 bg-light"></div>
+                </ul>
+            </div>
+            <div class="tab-content" id="pills-tabContent">
+                <div class="tab-pane fade show active" id="pills-gridview" role="tabpanel" aria-labelledby="pills-gridview-tab">
+                    <div class="row">
+                        <div class="col"><img src="./images/IMG_4074.jpg" alt="Its Me" width="100%" height="425px"></div>
+                        <div class="col"><img src="./images/89ECDDDC-4F94-4015-B4A3-112A0856D5BF.JPG" alt="Jorja" width="100%" height="425px"></div>
+                        <div class="col pr-0"><img src="./images/IMG_4193.JPG" alt="Wood Tavern Lights" width="100%" height="425px"></div>
+                    </div>
+                    <div class="row">
+                        <div class="col my-4"><img src="./images/IMG_4204.JPG" alt="Eloquent Javascript" width="100%" height="425px"></div>
+                        <div class="col my-4"><img src="./images/IMG_4232.jpg" alt="Time to Code" width="100%" height="425px"></div>
+                        <div class="col my-4 pr-0"><img src="./images/IMG_4235.JPG" alt="Kevin Wasnt Ready" width="100%" height="425px"></div>
+                    </div>
+                    <div class="row">
+                        <div class="col"><img src="./images/IMG_4246.PNG" alt="Organon" width="100%" height="425px"></div>
+                        <div class="col"><img src="./images/IMG_4247.PNG" alt="Jojos Words" width="100%" height="425px"></div>
+                        <div class="col pr-0"><img src="./images/StreetsIsWatchin.JPG" alt="Looking up at the federal building" width="100%" height="425px"></div>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="pills-singleview" role="tabpanel" aria-labelledby="pills-singleview-tab">
+                    <div class="card text-center col-md-6 px-0 mx-auto border-0">
+                        <div class="card-header bg-white text-left">
+                            prospers1
+                        </div>
+                        <div class="card-body p-0">
+                           <img src="./images/IMG_4074.jpg" alt="Its Me" width="100%" height="425px">
+                        </div>
+                        <div class="row bg-white py-2 pl-3 border-0">
+                            <div class="float-left">
+                                <button class="border-0"><i class="far fa-heart fa-2x"></i></button>
+                                <button class="border-0"><i class="far fa-comment fa-2x"></i></button>
+                                <button class="border-0"><i class="far fa-paper-plane fa-2x"></i></button>
+                            </div>
+                            <!-- <div><button class="border-0"><i class="far fa-bookmark fa-2x"></i></button></div> -->
+                            </div>
+                        <div class="card-footer bg-white border-0">
+                            <p class="text-left"><b>100 likes</b></p>
+                            <p class="text-left"><b>prospers1</b> GQ Status.</p>
+                            <p class="text-left text-muted">May 8</p>
+                        </div>
+                    </div>
+                    <div class="card text-center col-md-6 px-0 mx-auto my-5 border-0">
+                        <div class="card-header bg-white text-left">
+                            prospers1
+                        </div>
+                        <div class="card-body p-0">
+                           <img src="./images/89ECDDDC-4F94-4015-B4A3-112A0856D5BF.JPG" alt="Jorja" width="100%" height="425px">
+                        </div>
+                        <div class="row bg-white py-2 pl-3 border-0">
+                            <div class="float-left">
+                                <button class="border-0"><i class="far fa-heart fa-2x"></i></button>
+                                <button class="border-0"><i class="far fa-comment fa-2x"></i></button>
+                                <button class="border-0"><i class="far fa-paper-plane fa-2x"></i></button>
+                            </div>
+                            <!-- <div><button class="border-0"><i class="far fa-bookmark fa-2x"></i></button></div> -->
+                        </div>
+                        <div class="card-footer bg-white border-0">
+                            <p class="text-left"><b>365 likes</b></p>
+                            <p class="text-left"><b>prospers1</b> Jorja Fine.</p>
+                            <p class="text-left text-muted">May 3</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+                            <!-- <div class="col"><img src="./images/89ECDDDC-4F94-4015-B4A3-112A0856D5BF.JPG" alt="Jorja" width="100%" height="425px"></div>
+                            <div class="col pr-0"><img src="./images/IMG_4193.JPG" alt="Wood Tavern Lights" width="100%" height="425px"></div>
+                            <div class="col my-4"><img src="./images/IMG_4204.JPG" alt="Eloquent Javascript" width="100%" height="425px"></div>
+                            <div class="col my-4"><img src="./images/IMG_4232.jpg" alt="Time to Code" width="100%" height="425px"></div>
+                            <div class="col my-4 pr-0"><img src="./images/IMG_4235.JPG" alt="Kevin Wasnt Ready" width="100%" height="425px"></div>
+                            <div class="col"><img src="./images/IMG_4246.PNG" alt="Organon" width="100%" height="425px"></div>
+                            <div class="col"><img src="./images/IMG_4247.PNG" alt="Jojos Words" width="100%" height="425px"></div>
+                            <div class="col pr-0"><img src="./images/StreetsIsWatchin.JPG" alt="Looking up at the federal building" width="100%" height="425px"></div> -->
+
+       <!-- </div> -->
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+   </body>
+</html>
